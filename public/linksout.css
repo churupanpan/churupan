@@ -1,0 +1,64 @@
+body {
+    background-image: url(assets/bg_green1.gif);
+    background-position: center;
+    background-size: tile;
+    font-family: vt323;
+    color: rgb(64, 35, 102);
+  }
+  @font-face {
+    font-family: 'VT323'; /*a name to be used later*/
+    src: url('VT323-Regular.ttf'); /*URL to font*/
+  }
+  * { 
+    -moz-box-sizing: border-box; 
+    -webkit-box-sizing: border-box; 
+     box-sizing: border-box; 
+}
+.layout {
+    display: grid;
+    grid-template-columns: [first]30% [second]70% ;
+    width: 950px; 
+    margin: auto;
+    margin-top: 1px;
+    background-image: url(assets/tiniflowersbg.gif);
+    border:1px solid rgb(219, 149, 184);
+    padding: 25px;
+    border-radius: 5px;
+    column-gap: 10px;
+    row-gap: 5px;
+    min-height: 550px;
+}
+.header {
+    background-image: url(assets/cakeborder.png);
+    width: 950px;
+    background-repeat: repeat-x;
+    height:110px;
+    margin-top:10px;
+    margin-left:auto;
+    margin-right:auto;
+}
+.left {
+    background-color: aliceblue;
+    border-radius: 5px;
+    padding: 10px;
+}
+./h3 {
+    background-image: url(https://file.garden/ZX1fii8pMXxJ-5zC/churupan%20assets/flowerydivider.webp);
+    width: 325px;
+    text-align: center;
+
+}
+/* unvisited link */
+a:link {
+    color: rgb(66, 153, 77);
+  }
+  
+  /* visited link */
+  a:visited {
+    color: rgb(82, 67, 167);
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: hotpink;
+  }

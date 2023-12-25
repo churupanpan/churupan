@@ -1,0 +1,121 @@
+body {
+    background-image: url(assets/bg_flower1_pink.gif);
+    background-position: center;
+    background-size: tile;
+    font-family: 'vt323';
+    color: rgb(64, 35, 102);
+    font-size: 18px;
+  }
+
+@font-face {
+  font-family: 'VT323'; 
+  src: url('VT323-Regular.ttf'); 
+}
+  * { 
+    -moz-box-sizing: border-box; 
+    -webkit-box-sizing: border-box; 
+     box-sizing: border-box; 
+}
+.layout {
+    display: grid;
+    grid-template-columns: [first]30% [second]70% ;
+    grid-template-rows: [first]33% [second]34% [third]33%;
+    width: 950px; 
+    margin: auto;
+    margin-top: 100px;
+    background-image: url(assets/bg_green1.gif);
+    border:1px solid rgb(219, 149, 184);
+    padding: 10px;
+    border-radius: 5px;
+    column-gap: 5px;
+    row-gap: 5px;
+    min-height: 550px;
+  }
+  .sidebar{
+    background-color: aliceblue;
+    grid-column-end: 2;
+    grid-row-end: 2;
+    border: solid 1px lightblue;
+    padding: 3px;
+  }
+  .sidebar2{
+    background-color: papayawhip;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 4;
+    border: solid 1px lightblue;
+    padding: 3px;
+    margin-bottom: 5px;
+    padding: 20px;
+  }
+  .mainblock{
+    background-color: lavender;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 4;
+    border: solid 1px rgb(169, 169, 209);
+    padding: 20px;
+    margin-bottom: 5px;
+    position: relative;
+  }
+  .hiwo{
+    position:absolute;
+    right: 0px;
+    bottom: 0px;
+
+    animation: bounce 4s ease 0s infinite normal forwards;
+  }
+  .soty{
+    position: absolute;
+    right: -180px;
+    bottom: 0px;
+    animation: bounce 2s ease 0s infinite normal forwards;
+  }
+  @keyframes bounce {
+    0%,
+    100% {
+      transform: translateY(0);
+    }
+  
+    10%,
+    30%,
+    50%,
+    70% {
+      transform: translateY(-8px);
+    }
+  
+    20%,
+    40%,
+    60% {
+      transform: translateY(8px);
+    }
+  
+    80% {
+      transform: translateY(6.4px);
+    }
+  
+    90% {
+      transform: translateY(-6.4px);
+    }
+  }
+  .footer{
+    background-color: rgb(255, 222, 179);
+    width: 950px;
+    padding: 6px;
+    margin: auto;
+    border-radius: 5px;
+  }
+  /* unvisited link */
+a:link {
+  color: rgb(66, 153, 77);
+}
+
+/* visited link */
+a:visited {
+  color: rgb(82, 67, 167);
+}
+
+/* mouse over link */
+a:hover {
+  color: hotpink;
+}

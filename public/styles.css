@@ -1,0 +1,220 @@
+body {
+    background-image: url(assets/bg_flower_orange.GIF);
+    background-position: center;
+    background-size: tile;
+    font-family: 'vt323';
+    color: rgb(64, 35, 102);
+  }
+  @font-face {
+    font-family: 'VT323'; 
+    src: url('VT323-Regular.ttf'); 
+  }
+  * { 
+    -moz-box-sizing: border-box; 
+    -webkit-box-sizing: border-box; 
+     box-sizing: border-box; 
+}
+.layout {
+  display: flex;
+  flex-direction: column;
+  width: 950px; 
+  margin: auto;
+  background-image: url(assets/bg_green1.gif);
+  border:1px solid rgb(219, 149, 184);
+  padding: 10px;
+  border-radius: 5px;
+}
+  .header{
+    background-image: url(assets/header2.png);
+    background-position: cover;
+    border: dashed 1px rgb(143, 142, 214);
+    max-height: 200px;
+    min-height: 200px;
+    width: 100%;
+    margin: auto;
+    margin-bottom: 2px;
+    text-align: center;
+    border-radius: 5px;
+  }
+  .dumbimageofme{
+    border:dashed hotpink;
+    float:right;
+    width: auto;
+    max-height: px;
+  }
+  .speech-bubble{
+    background-color: rgb(199, 177, 219);
+    min-height: 50px;
+    border-radius: 5px;
+    padding: 3px;
+    margin: 3px;
+    position: relative;
+    float: right;
+    width: 70%;
+
+  } 
+  .sbtail:before {
+    content: "";
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    border-left: 10px solid transparent;
+    border-right: 10px solid rgb(199, 177, 219);
+    border-top: 10px solid rgb(199, 177, 219);
+    border-bottom: 10px solid transparent;
+    right: 179px; 
+    bottom: -19px;
+    z-index: 1;
+  }
+  #statuscafe {
+    padding: .5em;
+    background-color: azure;
+    ./border: 1px solid midnightblue;
+}
+#statuscafe-username {
+    margin-bottom: .5em;
+}
+#statuscafe-content {
+    margin: 0 1em 0.5em 1em;
+}
+.funnybox{
+ max-height: 50px;
+ float:left;
+ min-width: 30%;
+}
+  .maincontent{
+    display: flex;
+    align-content:center;
+    margin-left: auto 50px;
+    margin-right: auto 50px;
+    ./min-height: 400px;
+    word-wrap: break-word;
+    justify-content: space-evenly;
+    gap: 6px;
+    padding: 3px;
+
+  }
+  .maintext{
+    background-color: lightpink;
+    align-items:flex-start;
+    min-height: 500px;
+    float: right;
+    padding: 15px;
+    ./box-shadow:inset -1px -1px #4a4866,inset 1px 1px #dfdfdf,inset -2px -2px grey,inset 2px 2px #fff;
+    position: relative;
+    border-radius: 5px;
+    min-width: 75%;
+  }
+  .leftsidebar{
+    float: left;
+    max-width: 25%;
+    min-width: 20%;
+    background-color: powderblue;
+    min-height: 500px;
+    padding: 10px;
+    border-radius: 5px;
+    ./box-shadow:inset -1px -1px #4a4866,inset 1px 1px #dfdfdf,inset -2px -2px grey,inset 2px 2px #fff;
+  }
+  #linkbutton{
+    width: 88px;
+    height: 31px;
+    background-image: url(assets/tu-ba04-y.gif);
+    font-size:17px;
+    ;
+  }
+  #buttoncenter{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+  }
+  .lowerboxtext{
+    position:relative;
+    float: left;
+    background-color: rgb(182, 236, 182);
+    padding: 15px;
+    ./box-shadow:inset -1px -1px #4a4866,inset 1px 1px #dfdfdf,inset -2px -2px grey,inset 2px 2px #fff;
+    border-radius: 5px;
+    min-width: 75%;
+  }
+  .textarea{
+    width: 88px;
+  }
+  .smallrighttext{
+    float: right;
+    background-color: peachpuff;
+    padding: 10px;
+    ./box-shadow:inset -1px -1px #4a4866,inset 1px 1px #dfdfdf,inset -2px -2px grey,inset 2px 2px #fff;
+    border-radius: 5px;
+    max-width: 25%;
+    min-width: 25%;
+  }
+  .hiwo{
+    position:absolute;
+    float: right;
+    left: -80px;
+    top: -95px;
+    animation: bounce 4s ease 0s infinite normal forwards;
+  }
+  .soty{
+    position: absolute;
+    right: -50px;
+    bottom: -20px;
+    animation: bounce 2s ease 0s infinite normal forwards;
+  }
+  @keyframes bounce {
+    0%,
+    100% {
+      transform: translateY(0);
+    }
+  
+    10%,
+    30%,
+    50%,
+    70% {
+      transform: translateY(-8px);
+    }
+  
+    20%,
+    40%,
+    60% {
+      transform: translateY(8px);
+    }
+  
+    80% {
+      transform: translateY(6.4px);
+    }
+  
+    90% {
+      transform: translateY(-6.4px);
+    }
+  }
+  .footer{
+    background-color: rgb(255, 222, 179);
+    width: 950px;
+    padding: 6px;
+    margin: auto;
+    border-radius: 5px;
+    }
+  /* unvisited link */
+a:link {
+  color: rgb(66, 153, 77);
+}
+
+/* visited link */
+a:visited {
+  color: rgb(82, 67, 167);
+}
+
+/* mouse over link */
+a:hover {
+  color: hotpink;
+}
+.updates{
+  border: 1px solid darkgreen;
+  overflow: scroll;
+  width:300px;
+  height:100px;
+  background-color: white;
+  text-align: left;
+}
