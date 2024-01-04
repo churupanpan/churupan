@@ -22,7 +22,7 @@ body {
     grid-template-rows: [first]33% [second]34% [third]33%;
     width: 950px; 
     margin: auto;
-    margin-top: 100px;
+    margin-top: -10px;
     background-image: url(assets/bg_green1.gif);
     border:1px solid rgb(219, 149, 184);
     padding: 10px;
@@ -119,3 +119,10 @@ a:visited {
 a:hover {
   color: hotpink;
 }
+.header {
+  background-image: url(assets/frill.webp);
+  width: 100%;
+  background-repeat: repeat-x;
+  height:110px;
+  margin-left:auto;
+  margin-right:auto;
