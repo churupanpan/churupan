@@ -2,12 +2,17 @@ body {
     background-image: url(assets/purplesquare.gif);
     background-position: center;
     background-size: tile;
-    font-family: 'vt323';
+    font-family: 'pokemon';
     color: rgb(64, 35, 102);
+    font-size: 12px;
   }
   @font-face {
     font-family: 'VT323'; 
-    src: url('/public/VT323-Regular.ttf'); 
+    src: url('/VT323-Regular.ttf'); 
+  }
+  @font-face {
+    font-family: 'pokemon'; 
+    src: url(assets/Pokemon\ Classic.ttf); 
   }
   * { 
     -moz-box-sizing: border-box; 
@@ -43,7 +48,7 @@ body {
     }
 .pipiimage {
   margin: auto;
-  right: 200px;
+  right: 100px;
   position: relative;
   /background-image: url(assets/biggreeencircle.png);
   background-repeat: no-repeat;

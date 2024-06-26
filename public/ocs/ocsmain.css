@@ -2,13 +2,17 @@ body {
     background-image: url(ocsassets/heart_r.gif);
     background-position: center;
     background-size: tile;
-    font-family: 'vt323';
+    font-family: 'pokemon';
     color: rgb(64, 35, 102);
     font-size: 18px;
   }
   @font-face {
     font-family: 'VT323'; 
     src: url('/VT323-Regular.ttf'); 
+  }
+  @font-face {
+    font-family: 'pokemon'; 
+    src: url(/assets/Pokemon\ Classic.ttf); 
   }
   * { 
     -moz-box-sizing: border-box; 

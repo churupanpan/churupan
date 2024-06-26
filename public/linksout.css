@@ -2,12 +2,17 @@ body {
     background-image: url(assets/bg_green1.gif);
     background-position: center;
     background-size: tile;
-    font-family: vt323;
+    font-family: pokemon;
     color: rgb(64, 35, 102);
+    font-size: 12px;
   }
   @font-face {
     font-family: 'VT323'; /*a name to be used later*/
     src: url('VT323-Regular.ttf'); /*URL to font*/
+  }
+  @font-face {
+    font-family: 'pokemon'; 
+    src: url(assets/Pokemon\ Classic.ttf); 
   }
   * { 
     -moz-box-sizing: border-box; 
