@@ -13,7 +13,7 @@ body {
 }
 @font-face {
   font-family: 'pokemon'; 
-  src: url(assets/Pokemon\ Classic.ttf); 
+  src: url(assets/PokemonClassic.ttf); 
 }
   * { 
     -moz-box-sizing: border-box; 
